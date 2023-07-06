@@ -1,0 +1,43 @@
+.sidebar {
+    height: 100%;
+    width: 15%;
+    background-color: #1aac83;
+}
+.s-wrapper {
+    height: 100%;
+    width: 100%;
+    padding: 20px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.s-logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+.s-menu-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px 0 10px 0;
+    padding: 5px;    
+}
+.s-menu-item:hover{
+    background-color: teal;
+}
+.s-icon {
+    margin-right: 10px;
+    padding-left: 10px;
+    color: white;
+}
+.s-menu {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+.active {
+    background-color: teal;
+
+}

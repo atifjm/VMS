@@ -1,0 +1,14 @@
+.m-container {
+    height: 90vh;
+}
+.m-wrapper {
+    background-color: #1aac83;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.text {
+    color :white;
+    font-size: 20px;
+}
